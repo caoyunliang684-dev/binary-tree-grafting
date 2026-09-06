@@ -1,0 +1,11 @@
+digraph arbre {
+   node [ shape = record , height = .1 ]
+ edge [ tailclip = false , arrowtail = dot , dir = both ];
+  n0xaaaad1dee8c0 [ label = " < gauche > |  < valeur > Intel Core i9 |  < droit > " ];
+  n0xaaaad1dee8c0:gauche:c -> n0xaaaad1dee900:valeur;
+  n0xaaaad1dee900 [ label = " < gauche > |  < valeur > Intel Core i9 |  < droit > " ];
+  n0xaaaad1dee900:gauche:c -> n0xaaaad1dee940:valeur;
+  n0xaaaad1dee940 [ label = " < gauche > |  < valeur > Apple M3 Max |  < droit > " ];
+  n0xaaaad1dee900:droit:c -> n0xaaaad1dee980:valeur;
+  n0xaaaad1dee980 [ label = " < gauche > |  < valeur > AMD Ryzen 9 |  < droit > " ];
+}
