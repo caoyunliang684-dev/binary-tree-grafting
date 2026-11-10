@@ -1,0 +1,11 @@
+# Build output
+*.o
+*.exe
+arbre
+main
+visualise.pdf
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/
